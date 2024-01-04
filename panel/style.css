@@ -1,0 +1,71 @@
+/* CSS 样式 */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  /* 白色背景 */
+  color: #333;
+  /* 深色文本颜色 */
+  margin: 0;
+  padding: 20px;
+  /* 添加一些内边距以提高可读性 */
+}
+
+.container {
+  max-width: 800px;
+  /* 根据需要调整最大宽度 */
+  margin: 0 auto;
+  /* 将内容置中 */
+}
+
+select,
+a {
+  display: block;
+  width: 10%;
+  /* 设置宽度为 10% */
+  padding: 8px;
+  /* 较小的内边距 */
+  margin: 8px auto;
+  /* 上下 8px，左右自动外边距使其水平置中 */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  /* 细边框 */
+  background-color: #fff;
+  /* 白色背景 */
+  color: #333;
+  /* 深色文本颜色 */
+  text-decoration: none;
+  /* 删除锚点标签的下划线 */
+  text-align: center;
+  /* 文本居中 */
+  transition: all 0.3s ease;
+  /* 平滑过渡所有属性 */
+  transform-origin: center;
+  /* 设置缩放效果的变换原点 */
+}
+
+select:hover,
+a:hover {
+  background-color: #f0f0f0;
+  /* 悬停时的浅灰色背景 */
+  border-width: 2px;
+  /* 悬停时稍微加粗边框 */
+  transform: scale(1.05);
+  /* 悬停时的缩放效果 */
+}
+
+a {
+  cursor: pointer;
+  /* 悬停时将光标改为手型 */
+}
+
+select {
+  -webkit-appearance: none;
+  /* 移除 Safari 中的默认下拉箭头 */
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=`, initial-scale=1.0">
+  <title>PowerCenter - 控制台</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" href="https://powercenter.tmps106196.repl.co/ICON.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <script src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <select id="selecter-id">
+    <option>選擇要監控的裝置</option>
+  </select>
+  <select id="selecter-pic">
+    <option>選擇要查看的報表</option>
+
+    <option value="year">年報表</optine>
+    <option value="month">月報表</option>
+    <option value="day">日報表</option>
+    <option value="hour">時報表</option>
+  </select>
+
+  <select id="year"></select>
+  <select id="month"></select>
+  <select id="day"></select>
+  <select id="hour"></select>
+  <a href="#" id="check">確定並查詢</a>
+  <a href="#" id="new">新增裝置</a>
+  <a href="#" id="logout">登出</a>
+
+  <script src="script.js"></script>
+
+</html>
